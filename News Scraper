@@ -26,5 +26,5 @@ df=pd.DataFrame(dic)
 
 print(df)
 
-df.to_csv("C:\\Users\\Sweta\\news.csv",index=False)
+df.to_csv("C:\\Users\\Sai Ashish\\news.csv",index=False)
 print("Done")
