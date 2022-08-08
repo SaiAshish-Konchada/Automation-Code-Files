@@ -45,6 +45,6 @@ for i in conn:
 
 dic={'Name':c_n,'Current Position':c_p, 'Contact Info': c_c}
 df=pd.DataFrame(dic)
-df.to_csv("C:\\Users\\Sweta\\LinkedIn connection.csv",index=False)
+df.to_csv("C:\\Users\\SaiAshish\\LinkedIn connection.csv",index=False)
 
 print("DONE")
