@@ -5,7 +5,7 @@ from pdfminer.layout import LAParams
 import io
 
 
-pdf_path='D:\\Mani\\pdf1.pdf'#path to your pdf file
+pdf_path='D:\\SaiAshish\\pdf1.pdf'#path to your pdf file
 pdf=open(pdf_path,'rb')
 mem=io.StringIO()
 
@@ -18,7 +18,7 @@ for i in PDFPage.get_pages(pdf):
 	ip.process_page(i)
 	text=mem.getvalue()
 
-file=open("D:\\Mani\\pdf1.txt",'wb')#path to your destination file
+file=open("D:\\SaiAshish\\pdf1.txt",'wb')#path to your destination file
 file.write(text.encode('utf-8'))
 
 print("DONE")
