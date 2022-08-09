@@ -21,11 +21,11 @@ steps->
 	but open the file in appned mode. """
 
 fo=open("D:\\exm.txt",'a')
-fo.write("Hello all. Welcome to ISB.")
+fo.write("Hello all.")
 
 #to update with multiple lines
 # create a list of item.
-line_list=["It is really hot in Kolkata.\n","BTW how is your preparation for ISB going on\n","Are you attending the warm up session?\n"]
+line_list=["It is really hot in Kolkata.\n","How are you?\n","Are you attending your college sessions?\n"]
 fo.writelines(line_list)
 
 # use case1
@@ -54,13 +54,13 @@ sf.close()
 import os
 import shutil
 # new directory formation-> os.mkdir("new_directiry_path")
-os.mkdir("D:\\Mani\\")
-shutil.move("D:\\ABC","D:\\Mani\\")
+os.mkdir("D:\\SaiAshish\\")
+shutil.move("D:\\ABC","D:\\SaiAshish\\")
 
 
 
 #to copy a file or folder
-shutil.copy("D:\\4th Semester Result.pdf","D:\\Mani\\4th Semester Result.pdf")
+shutil.copy("D:\\4th Semester Result.pdf","D:\\SaiAshish\\4th Semester Result.pdf")
 
 # to copy multiple files.
 #steps
@@ -68,7 +68,7 @@ shutil.copy("D:\\4th Semester Result.pdf","D:\\Mani\\4th Semester Result.pdf")
 
 file_list=["D:\\4th Semester Result.pdf","D:\\5th Semester Result.pdf","D:\\6th Semester Result.pdf"]
 for file in file_list:
-	shutil.copy(file,"D:\\Mani\\")
+	shutil.copy(file,"D:\\SaiAshish\\")
 
 # to rename a file
 #steps-> 
@@ -97,4 +97,4 @@ for i in re_files:
 #to delete a file
 #steps->
 	#make the location available.
-os.remove("D:\\Mani\\ABC")
+os.remove("D:\\SaiAshish\\ABC")
