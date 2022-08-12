@@ -23,5 +23,5 @@ for i in fl:
 dic={'HashTag':fl,'URL':urls}
 
 df=pd.DataFrame(dic)
-df.to_csv("C:\\Users\\Sweta\\Twitter_HT.csv",index=False)
-print("The data is stored at C:\\Users\\Sweta\\Twitter_HashTags.csv")
+df.to_csv("C:\\Users\\SaiAshish\\Twitter_HT.csv",index=False)
+print("The data is stored at C:\\Users\\SaiAshish\\Twitter_HashTags.csv")
