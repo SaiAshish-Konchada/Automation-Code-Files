@@ -27,7 +27,7 @@ for i in chrome_browser.find_elements_by_xpath('//*[@id="main_table_countries_to
 df = df.iloc[1:]
 print(df)
 
-base_path='C:\\Users\\Sweta'
+base_path='C:\\Users\\SaiAshish'
 
 path=os.path.join(base_path,'Covid_Dataset_.csv')
 #os.mkdir(path)
